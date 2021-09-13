@@ -163,6 +163,9 @@ This describes the second week's work for this lab activity.
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
 \*\***Summarize feedback from your partners here.**\*\*
+Both reviewers claimed that they loved my idea of a portable voice mirror, and some of the feedback I receive include: 
+1) making sure that the portable mirror is a smart mirror that adjusts brightness based on user's needs, and it can learn what kind of lighting the user needs for each step. 
+2) to consider how many degrees of brightness should the mirror have in its setting that can accomodate most of the user scenarios.
 
 ## Make it your own
 
@@ -172,3 +175,14 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+Scenario: I will keep the setting the same as in the staging 1 where the smart portable mirror is located in the bedroom. Players still remain the same, two roommates who will be able to share the mirror. Of course, this mirror can interact with any single player. I'd love to keep the same activity as the original as well, in which two girls (roommates) are doing the makeup at home for an upcoming dance night. They are busy with own makeup, with tons of brushes, eyeshadow palattes, lotion bottles. While there's only one chandelier in the dorm bedroom, none of them has additional hand to hold the lamp or mirror, so they find it hard to see how they look like when doing makeup.
+
+Goal: The goal is to allow two girls to find a mirror that has different degree of lights, as well as some various colors to focus on their faces as they do makeup. Different colors can stand for various scenarios which allow them to determine the quality of their makeup. The mirror is smart and portable and can fit to stand on any horizontal surface.
+
+Some additional instructions: I'll use primarily three colors, yellow, orange and green, in addition to the original setup where players control the brightness levels using voice. They now can also control the colors by commanding the voice with words, "red", "yellow", and "orange". Players can control the angle of the smart mirror by voice commanding. The details of the new mirror are in the sketch below.
+
+Storyboard: I will remain the storyboard as the original, and has been described as the scenario above.
+Update: in this stage, I will focus on updating the features and structures of the smart portable mirror based on peer review feedback. Here are some sketches of the mirror in different angles:
+(https://github.com/angelachen-19/Interactive-Lab-Hub/blob/Fall2021/Angela_Chen_IDD_new-sketch1.jpg)
+(https://github.com/angelachen-19/Interactive-Lab-Hub/blob/Fall2021/Angela_Chen_IDD_new-sketch2.jpg)
+I also created a new video that explains how the new idea works. Thanks to Qianzhi Xu (qx36) who provided support of color displaying for people who cannot set up at their Mac OS devices. The link to my prototyped interaction is: https://youtu.be/vGymkhMXv-c

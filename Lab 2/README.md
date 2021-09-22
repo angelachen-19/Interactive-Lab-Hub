@@ -177,8 +177,7 @@ I collaborated this design with a teammate, Kaiyuan Deng (kd487) whom we togethe
 ![image](https://user-images.githubusercontent.com/61665501/134278602-4f0a2c3c-9925-4b35-8920-0bfaa841a1af.png)
 ![image](https://user-images.githubusercontent.com/61665501/134278628-42790da0-3848-402c-a331-a8225b90cb5d.png)
 ![image](https://user-images.githubusercontent.com/61665501/134278645-c570335e-a55f-4f8c-9166-7282eaf67b3b.png)
-![image](https://user-images.githubusercontent.com/61665501/134278660-cba5b22a-62a4-47bc-ac3c-d17bb607155e.png)![image](https://user-images.githubusercontent.com/61665501/134278938-d61601db-2c79-41ff-87b7-dfe4785d3486.png)
-
+![image](https://user-images.githubusercontent.com/61665501/134278660-cba5b22a-62a4-47bc-ac3c-d17bb607155e.png)
 
 
 Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
@@ -186,7 +185,7 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
 ![image](https://user-images.githubusercontent.com/61665501/134278906-9f30b3f6-f679-465a-95dc-bf39f08248f4.png)
 ![image](https://user-images.githubusercontent.com/61665501/134278918-45a2e42a-cbd3-41f2-967f-3e5b26eb84c2.png)
 ![image](https://user-images.githubusercontent.com/61665501/134278947-edc75fdd-8c1f-4006-afb3-1c9bc2515f54.png)
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/61665501/134377333-fad36559-5fd0-430b-b006-9b2dce98f2d3.png)
 
 
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
@@ -212,7 +211,11 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 Here are some of the additional sketches and brainstorming we thought about:
-1. 
+1. we think of adding the meditation activities to each stage to remind users of their wellness. This can incorporate a voice assistant audio that instructs a short meditation session at the beginning of each stage. Users can control if they want to pause or leave the mediation by pressing the buttons on the left.
+morning: ![image](https://user-images.githubusercontent.com/61665501/134385602-7cde8fe2-430e-4419-a234-f5bd2615a097.png)
+afternoon: ![image](https://user-images.githubusercontent.com/61665501/134385639-b8b8e8d9-0bf5-4e1f-9bfc-4e79efdb0f71.png)
+evening: ![image](https://user-images.githubusercontent.com/61665501/134385696-4045c2d4-9452-492d-959b-bfc113ece208.png)
+when the meditation is done: ![image](https://user-images.githubusercontent.com/61665501/134385746-fb55d2af-7f09-421b-8c51-4127ba6296bb.png)
 
 
 # Prep for Part 2

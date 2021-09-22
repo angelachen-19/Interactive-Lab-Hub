@@ -84,7 +84,7 @@ def isPressed_A():
 def isPressed_B():
     return not buttonB.value
 
-def draw_text_align(min_x, min_y, max_x, max_y, msg, font=font, fill="#FFFFFF"):
+def draw_text_align_in_range(min_x, min_y, max_x, max_y, msg, font=font, fill="#FFFFFF"):
     # font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 22)
     w, h = draw.textsize(msg, font=font)
     draw.text((min_x+(max_x-min_x-w)/2,min_y+(max_y-min_y-h)/2), msg, font=font, fill=fill)
@@ -97,6 +97,9 @@ def draw_text_align(msg, font=font, fill="#FFFFFF"):
     draw.text((min_x+(max_x-min_x-w)/2,min_y+(max_y-min_y-h)/2), msg, font=font, fill=fill)
     # print((min_x+(max_x-min_x-w)/2,min_y+(max_y-min_y-h)/2))
 
+def get_current_min():
+    real_time = datetime.now().time()
+    return to_min(real_time)
 
 # Classes
 class Interaction:
@@ -105,6 +108,41 @@ class Interaction:
     B = 2 # Button B
     AnB = 3 # Button A & B
 
+
+def to_min(date_time):
+    total_min = date_time.hour * 60 + date_time.minute
+    return total_min
+
+
+class Display:
+    """
+               Adafruit   miniPiTFT 1.14"   240x135
+
+            (x0, y0) ------------------------ (x1, y0)
+                |                                 |
+    [Button_A]  |         [ Time Slot ]           |
+                |                                 |
+            (x0, y1) ------------------------ (x1, y1)    
+                |                                 |
+    [Button_B]  |         [ Remaining ]           |
+                |                                 |
+            (x0, y2) ------------------------ (x1, y2)
+
+    """
+    x0, x1 = 0, 240
+    y0, y1, y2 = 0, 67.5, 135
+
+    def time_slot(self, in_text):
+        draw_text_align_in_range(self.x0, self.y0, self.x1, self.y1 + 20, in_text)
+
+    def remaining(self, in_text):
+        draw_text_align_in_range(self.x0, self.y1 - 20, self.x1, self.y2, in_text)
+
+    def background(slef, width, color):
+        draw.rectangle((0, 0, width, 135), outline=0, fill=color)
+
+display = Display()
+
 class TimeSlot:
     color = "White"
     title = "Truman Clock"
@@ -112,7 +150,7 @@ class TimeSlot:
     start_time = 0
     end_time = 100
     word_color = "White"
-    background_color = "Black"
+    # background_color = "Black"
 
     def __init__ (self):
         return
@@ -123,116 +161,135 @@ class TimeSlot:
             return self.start_time <= in_time < self.end_time
         return self.start_time <= in_time or in_time < self.end_time
 
-    def show_greeting(self):
-        draw_text_align(self.greeting)
-
     def get_width(self, in_time):
-        def get_min(date_time):
-            total_min = date_time.hour * 60 + date_time.minute
-            return total_min
 
         # Get the length of pixel 
-        total_min = in_time.hour * 60 + in_time.minute
-        print(total_min)
+        # in_min = in_time
+        # start_min = self.start_time
+        # end_min = self.end_time
 
-        in_min = get_min(in_time)
-        start_min = get_min(self.start_time)
-        end_min = get_min(self.end_time)
+        # if start_min < in_min: 
+        #     w = 240 * (end_min - in_min) / (end_min - start_min)
+        # elif in_min < end_min: 
+        #     w = 240 * (end_min - in_min) / (end_min + 1440 - start_min)
+        return 240 * self.get_percentage(in_time)
+
+    def get_percentage(self, in_time):
+        in_min = in_time
+        start_min = self.start_time
+        end_min = self.end_time
+
+        if in_min == start_min:
+            return 1.00
 
         if start_min < in_min: 
-            w = 240 * (end_min - in_min) / (end_min - start_min)
-        elif in_min < end_min: 
-            w = 240 * (end_min - in_min) / (end_min + 1440 - start_min)
-
-        print(get_min(self.start_time))
-        # w = 240 * (total_min - self.start_time) / (self.end_time - self.start_time)
-        return w
-
-    def show_background(self, in_time):
-        w = self.get_width(in_time)
-        print("W" , w)
-        draw.rectangle((0, 0, w, 135), outline=0, fill=self.color)
+            percentage = (end_min - in_min) / (end_min - start_min)
+        # elif in_min < end_min: 
+        #     percentage = (end_min - in_min) / (end_min + 1440 - start_min)
+        else:
+            percentage = (in_min - start_min) / (end_min - start_min)
+        return percentage
 
     def show(self, in_time):
         clear_image()
         self.show_background(in_time)
         self.show_greeting()
-
+        self.show_percentage(in_time)
         # Display Text
+
+    def show_background(self, in_time):
+        w = self.get_width(in_time)
+        print("W" , w)
+        print(self.color)
+        display.background(w, self.color)
+
+    def show_greeting(self):
+        display.time_slot(self.greeting)
+        # draw_text_align(self.greeting)
+
+    def show_percentage(self, in_time):
+        percentage = "{0:.2%}".format(self.get_percentage(in_time))
         
+        print(percentage)
+        display.remaining(percentage)
+        # draw_text_align(percentage)
+
 
 # Morning
 MORNING = TimeSlot()
 MORNING.color = "#98DB8D"
 MORNING.title = "morning"
 MORNING.greeting = "Good Morning!"
-MORNING.start_time = time(6, 0)
-MORNING.end_time = time(12, 0)
+MORNING.start_time = to_min(time(6, 0))
+MORNING.end_time = to_min(time(12, 0))
 
 # Afternoon
 AFTERNOON = TimeSlot()
 AFTERNOON.color = "#FFC061"
 AFTERNOON.title = "afternoon"
 AFTERNOON.greeting = "Good Afternoon!"
-AFTERNOON.start_time = time(12, 0)
-AFTERNOON.end_time = time(18, 0)
+AFTERNOON.start_time = to_min(time(12, 0))
+AFTERNOON.end_time = to_min(time(18, 0))
 
 # Evening
 EVENING = TimeSlot()
 EVENING.color = "#4F8AFF"
 EVENING.title = "evening"
 EVENING.greeting = "Good Evening!"
-EVENING.start_time = time(18, 0)
-EVENING.end_time = time(0, 0)
+EVENING.start_time = to_min(time(18, 0))
+EVENING.end_time = to_min(time(0, 0))
 
 # Night
 NIGHT = TimeSlot()
 NIGHT.color = "#8254BD"
 NIGHT.title = "night"
 NIGHT.greeting = "Good Night!"
-NIGHT.start_time = time(0, 0)
-NIGHT.end_time = time(6, 0)
+NIGHT.start_time = to_min(time(0, 0))
+NIGHT.end_time = to_min(time(6, 0))
 
 VOIDTIME = TimeSlot()
 
 # Default Settings
 TIME_SLOTS = [MORNING, AFTERNOON, EVENING, NIGHT]
 
-class Display:
-    """
-               Adafruit   miniPiTFT 1.14"   240x135
 
-            (x0, y1) ------------------------ (x1, y1)
-                |                                 |
-    [Button_A]  |                                 |
-                |                                 |
-                |                                 |
-    [Button_B]  |                                 |
-                |                                 |
-            (x0, y0) ------------------------ (x1, y0)
-
-    """
-    x0, x1 = 0, 240
-    y0, y1 = 0, 135
-
-def get_current_slot(in_time):
+def get_slot(in_time):
     for t in TIME_SLOTS:
         if t.in_range(in_time):
             return t
     return VOIDTIME
 
 # Run it!
-while True:
-    # Draw a black filled box to clear the image.
-    # clear_image()
-    real_time = datetime.now().time()
-    curr_slot = get_current_slot(real_time)
 
-    # Get Current Timeslot 
-    curr_slot.show(real_time);
+def show_info(_time):
+    curr_slot = get_slot(_time)
+    curr_slot.show(_time);
     # Display image.
     disp.image(image, rotation)
-    sleep(30)
+
+is_real = True
+sleep_time = 0.1
+fake_time = 0
+while True:
+    # Draw a black filled box to clear the image.
+
+    # check buttons:
+    if isPressed_A():
+        # switch between real and fake time
+        is_real = not is_real
+    
+    if isPressed_B():
+        fake_time = (fake_time + 5) % (24 * 60)
+
+    # clear_image()
+    if is_real:
+        time = get_current_min()
+    else:
+        time = fake_time
+    print(time)
+    show_info(time)
+
+    sleep(sleep_time)
 
 
 

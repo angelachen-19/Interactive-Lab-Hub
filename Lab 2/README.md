@@ -169,8 +169,25 @@ Now you should be able to edit python scripts with Thonny on your Pi.
 ### Modify the barebones clock to make it your own
 
 Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
+I collaborated this design with a teammate, Kaiyuan Deng (kd487) whom we together came up with multiple solutions and implement one of them into Pi. The other solution spaces are placed in Part G as part of sketches and brainstorming.
+- Intro to truman clock: it is a functional clock that tells about four stages in a typical day, morning, afternoon, evening and night. By default, we set up four equal length of time scale (6 hours) for each stage, and they evenly divide 24 hours with a different color. For example, in the morning, we display "Good morning" with a light green color that represents a fresh, clean and healthy start of the day. It begins at 6am and last until 12pm, excluding the instant time of 12pm. We display "Good afternoon" with a light orange color that represents a recharging, exciting state to refresh user's mind. It begins at 12pm and lasts until 6pm, excluding 6pm. We then display "Good evening" with a darker blue that shows the after hours, when sun goes down and when user finishes a day. It begins at 6pm and lasts until 12am. Lastly, "Good night" stands for showing the last stage of a day where user will rest for the day, with a dark purple scheme that showcases the sleeping mode. It begins at 12am and lasts until 6am, the next day when a new round of the truman clock operates.
+- The time doesn't have to linear because even though in default setting we set up four equal length of time scale to be 6 hours, the clock can vary based on the length of the day and night. For instance, the day will be longer for summer (meaning that there will be longer hours for "Good morning" and "Good afternoon" stages), while the day will be shorter for winter (meaning that there will be longer hours for "Good evening" and "Good night" stages.)
+- To measure a year, we thought about changing the color schemes as the time went by. For spring and summer, the clock will be displayed with more vibrant, light colors, while in autumn and winter, the clock can visualize in darker or deeper colors.
+- Some pictures representing our design are shown as:
+![image](https://user-images.githubusercontent.com/61665501/134278602-4f0a2c3c-9925-4b35-8920-0bfaa841a1af.png)
+![image](https://user-images.githubusercontent.com/61665501/134278628-42790da0-3848-402c-a331-a8225b90cb5d.png)
+![image](https://user-images.githubusercontent.com/61665501/134278645-c570335e-a55f-4f8c-9166-7282eaf67b3b.png)
+![image](https://user-images.githubusercontent.com/61665501/134278660-cba5b22a-62a4-47bc-ac3c-d17bb607155e.png)![image](https://user-images.githubusercontent.com/61665501/134278938-d61601db-2c79-41ff-87b7-dfe4785d3486.png)
+
+
 
 Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
+- We plan to make the time interactive now only based on time flies. We don't plan to use the buttons for now. So the scale of each time stage will reduce in colors as the time flies. The background color is black, by default. For instance, for morning stage, the green scale will decrease as the time flies from 6am to 12pm, and it will change directly into blue after 12pm, and so on. Here are some screenshots from the design ideas we planned:
+![image](https://user-images.githubusercontent.com/61665501/134278906-9f30b3f6-f679-465a-95dc-bf39f08248f4.png)
+![image](https://user-images.githubusercontent.com/61665501/134278918-45a2e42a-cbd3-41f2-967f-3e5b26eb84c2.png)
+![image](https://user-images.githubusercontent.com/61665501/134278947-edc75fdd-8c1f-4006-afb3-1c9bc2515f54.png)
+![Uploading image.png…]()
+
 
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
@@ -194,6 +211,8 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+Here are some of the additional sketches and brainstorming we thought about:
+1. 
 
 
 # Prep for Part 2

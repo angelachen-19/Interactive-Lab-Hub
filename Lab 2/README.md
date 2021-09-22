@@ -182,9 +182,10 @@ I collaborated this design with a teammate, Kaiyuan Deng (kd487) whom we togethe
 
 Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
 - We plan to make the time interactive now only based on time flies. We don't plan to use the buttons for now. So the scale of each time stage will reduce in colors as the time flies. The background color is black, by default. For instance, for morning stage, the green scale will decrease as the time flies from 6am to 12pm, and it will change directly into blue after 12pm, and so on. Here are some screenshots from the design ideas we planned:
+
 ![image](https://user-images.githubusercontent.com/61665501/134278906-9f30b3f6-f679-465a-95dc-bf39f08248f4.png)
 ![image](https://user-images.githubusercontent.com/61665501/134278918-45a2e42a-cbd3-41f2-967f-3e5b26eb84c2.png)
-![image](https://user-images.githubusercontent.com/61665501/134278947-edc75fdd-8c1f-4006-afb3-1c9bc2515f54.png)
+![image](https://user-images.githubusercontent.com/61665501/134386442-4ceaaee1-be3b-42d2-98e3-e90571f1390a.png)
 ![image](https://user-images.githubusercontent.com/61665501/134377333-fad36559-5fd0-430b-b006-9b2dce98f2d3.png)
 
 
@@ -212,10 +213,10 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 Here are some of the additional sketches and brainstorming we thought about:
 1. we think of adding the meditation activities to each stage to remind users of their wellness. This can incorporate a voice assistant audio that instructs a short meditation session at the beginning of each stage. Users can control if they want to pause or leave the mediation by pressing the buttons on the left.
-morning: ![image](https://user-images.githubusercontent.com/61665501/134385602-7cde8fe2-430e-4419-a234-f5bd2615a097.png)
-afternoon: ![image](https://user-images.githubusercontent.com/61665501/134385639-b8b8e8d9-0bf5-4e1f-9bfc-4e79efdb0f71.png)
-evening: ![image](https://user-images.githubusercontent.com/61665501/134385696-4045c2d4-9452-492d-959b-bfc113ece208.png)
-when the meditation is done: ![image](https://user-images.githubusercontent.com/61665501/134385746-fb55d2af-7f09-421b-8c51-4127ba6296bb.png)
+- morning: ![image](https://user-images.githubusercontent.com/61665501/134385602-7cde8fe2-430e-4419-a234-f5bd2615a097.png)
+- afternoon: ![image](https://user-images.githubusercontent.com/61665501/134385639-b8b8e8d9-0bf5-4e1f-9bfc-4e79efdb0f71.png)
+- evening: ![image](https://user-images.githubusercontent.com/61665501/134385696-4045c2d4-9452-492d-959b-bfc113ece208.png)
+- when the meditation is done: ![image](https://user-images.githubusercontent.com/61665501/134385746-fb55d2af-7f09-421b-8c51-4127ba6296bb.png)
 
 
 # Prep for Part 2

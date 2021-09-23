@@ -193,6 +193,7 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
 
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
 - the code is in truman_clock.py file.
+
 After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
 
 ```
@@ -208,7 +209,7 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
-link to the video: https://youtu.be/GuJpIU0WzvE
+- link to the video: https://youtu.be/GuJpIU0WzvE
 
 
 ## Part G. 

@@ -81,12 +81,13 @@ Goal: The goal of for each player is the same, where they can find a mirror that
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include a picture of your storyboard here**\*\*
-https://github.com/angelachen-19/Interactive-Lab-Hub/blob/Fall2021/Angela_Chen_IDD_storyboard.jpeg
 
+https://github.com/angelachen-19/Interactive-Lab-Hub/blob/Fall2021/Angela_Chen_IDD_storyboard.jpeg
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
+
 I was able to showcase my storyboard and idea to a classmate and who provided some thoughtful feedback:
 1. Thinking about add a stand or a supported structure on the mirror so that it can safely placed on any surface without the person holding it or falling off.
 2. thinking about adding a subsequent voice control feature where the user can adjust the color mode of the light (i.e. warm or cold colors, blue, orange, etc.)
@@ -98,9 +99,11 @@ I was able to showcase my storyboard and idea to a classmate and who provided so
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
+
 1. We need to make sure the size of the portable mirror. Some mirror size is too large to be placed in somewhere in the room where the player might be place to use for makeup.
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+
 1. think about how to make sure that the portable mirror can be placed anywhere in the bedroom where players are doing for makeup, rather than sitting in front of the dress table. New ideas include a adds-on stand or equipment that allows the mirror to adjust to different surfaces.
 2. think about what are the charging method for the mirror, using wires or batteries?
 
@@ -116,6 +119,7 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
+
 I have issues running Tinkerbelle on mac so I decided to simply use phone and flashlights to conduct the video. The video is at the part F.
 
 
@@ -124,11 +128,13 @@ I have issues running Tinkerbelle on mac so I decided to simply use phone and fl
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
+
 I invited a classmate, Jiahao Dong (jd787) who helped me set up the scenario at the home. What I prepared for the set-up included makeups lotions, a phone that displayed the light and changes the brightness, as well as an ipad that serves to control the color and light changes. 
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
+
 The prototype will be updated with more details that show how and when the mirror lights will change in brightness as users talk over it, such as "level 1, level 2, and level 3". The updated prototype will be shown as in the recording in Part F.
 
 

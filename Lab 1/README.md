@@ -81,8 +81,7 @@ Goal: The goal of for each player is the same, where they can find a mirror that
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include a picture of your storyboard here**\*\*
-![Image of Angela's storyboard: lighting portable mirror for makeup]
-(https://github.com/angelachen-19/Interactive-Lab-Hub/blob/Fall2021/Angela_Chen_IDD_storyboard.jpeg)
+
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
@@ -139,8 +138,7 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your device might look like here.**\*\*
-![Image of Angela's device sketch]
-(https://github.com/angelachen-19/Interactive-Lab-Hub/blob/Fall2021/Angela_Chen_IDD_PartE.jpg)
+https://github.com/angelachen-19/Interactive-Lab-Hub/blob/Fall2021/Angela_Chen_IDD_PartE.jpg
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 1. I'm concerning that if the portable mirror is only equipped with batteries or something else too. It is better not to equip with wires as I want to place the mirror on any surface.
@@ -187,6 +185,6 @@ Some additional instructions: I'll use primarily three colors, yellow, orange an
 
 Storyboard: I will remain the storyboard as the original, and has been described as the scenario above.
 Update: in this stage, I will focus on updating the features and structures of the smart portable mirror based on peer review feedback. Here are some sketches of the mirror in different angles:
-(https://github.com/angelachen-19/Interactive-Lab-Hub/blob/Fall2021/Angela_Chen_IDD_new-sketch1.jpg)
-(https://github.com/angelachen-19/Interactive-Lab-Hub/blob/Fall2021/Angela_Chen_IDD_new-sketch2.jpg)
+![image](https://user-images.githubusercontent.com/61665501/134760761-e6670024-f128-413e-bcee-e1f4e7a905c3.png)
+![image](https://user-images.githubusercontent.com/61665501/134760769-762aadc5-6379-4883-a032-aa76d9822935.png)
 I also created a new video that explains how the new idea works. Thanks to Qianzhi Xu (qx36) who provided support of color displaying for people who cannot set up at their Mac OS devices. The link to my prototyped interaction is: https://youtu.be/vGymkhMXv-c

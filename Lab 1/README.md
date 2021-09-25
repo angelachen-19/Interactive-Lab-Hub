@@ -81,8 +81,7 @@ Goal: The goal of for each player is the same, where they can find a mirror that
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include a picture of your storyboard here**\*\*
-
-< img src="Fall2021/Angela_Chen_IDD_storyboard.jpeg" alt="drawing" width=50%/>
+https://github.com/angelachen-19/Interactive-Lab-Hub/blob/Fall2021/Angela_Chen_IDD_storyboard.jpeg?raw=true
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 

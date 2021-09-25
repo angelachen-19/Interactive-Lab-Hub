@@ -81,7 +81,8 @@ Goal: The goal of for each player is the same, where they can find a mirror that
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include a picture of your storyboard here**\*\*
-https://github.com/angelachen-19/Interactive-Lab-Hub/blob/Fall2021/Angela_Chen_IDD_storyboard.jpeg?raw=true
+![image](https://user-images.githubusercontent.com/61665501/134781177-1c33c17d-48ff-4049-9e38-d3acb6d94277.png)
+
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
@@ -145,7 +146,7 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your device might look like here.**\*\*
 
-https://github.com/angelachen-19/Interactive-Lab-Hub/blob/Fall2021/Angela_Chen_IDD_PartE.jpg
+![image](https://user-images.githubusercontent.com/61665501/134781182-31e47f68-95f5-4586-8d48-79e36d831f56.png)
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 1. I'm concerning that if the portable mirror is only equipped with batteries or something else too. It is better not to equip with wires as I want to place the mirror on any surface.

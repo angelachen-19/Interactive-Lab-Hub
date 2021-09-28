@@ -244,7 +244,7 @@ You are permitted (but not required) to work in groups and share a turn in; you 
 - In the next iterations, think about whether users would feel stressed to see the time loss, and possibly redesign each stage as a progress bar.
 
 
-2. New Truman Clock: Designing a day with ascending progress
+2. **New Truman Clock: Designing a day with ascending progress**
 - Introduction: Truman clock a functional clock that tells about four stages in a typical day, from morning, afternoon, evening to night. By default, we set up four equal length of time scale (6 hours) for each stage, and they evenly divide 24 hours with a different color. 
 - Morning: we display "Good morning" with a light green color that represents a fresh, clean and healthy start of the day. It begins at the sunrise and lasts until 12pm, excluding the instant time of 12pm. By default, the screen is black, and at the time of actual sunrise, the screen started to proceed with the green color with a percentage shown in the middle as the time goes to 12pm. 
 - Afternoon: we display "Good afternoon" with a light orange color that represents a recharging, exciting state to refresh user's mind. It begins at 12pm and lasts until the time of sunset, excluding the sunset time. By default, the screen is black, and at the time of 12pm, the screen started to proceed with the orange color with a percentage shown in the middle as the time goes to the sunset. 

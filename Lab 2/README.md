@@ -216,10 +216,7 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 Here are some of the additional sketches and brainstorming we thought about:
 1. we think of adding the meditation activities to each stage to remind users of their wellness. This can incorporate a voice assistant audio that instructs a short meditation session at the beginning of each stage. Users can control if they want to pause or leave the mediation by pressing the buttons on the left.
-- morning: ![image](https://user-images.githubusercontent.com/61665501/134385602-7cde8fe2-430e-4419-a234-f5bd2615a097.png)
-- afternoon: ![image](https://user-images.githubusercontent.com/61665501/134385639-b8b8e8d9-0bf5-4e1f-9bfc-4e79efdb0f71.png)
-- evening: ![image](https://user-images.githubusercontent.com/61665501/134385696-4045c2d4-9452-492d-959b-bfc113ece208.png)
-- when the meditation is done: ![image](https://user-images.githubusercontent.com/61665501/134385746-fb55d2af-7f09-421b-8c51-4127ba6296bb.png)
+
 
 
 # Prep for Part 2
@@ -239,12 +236,12 @@ As always, make sure you document contributions and ideas from others explicitly
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
 ***Update of Lab2 Design.***
-1. I collaborated with Kaiyuan Deng (kd487) on this lab and we were able to receive some thoughtful feedback from during the Thursday lab session. We debriefed as the following: 
+1. I collaborated with **Kaiyuan Deng (kd487)** on this lab and we were able to receive some thoughtful feedback from during the Thursday lab session. We debriefed as the following: 
 - The idea of adding meditation possibly to the truman clock design is cool. It adds more awareness of wellness and maintaining healthy life. But it will depend on if the audio is actually feasible for this lab. 
 - In the next iterations, think about whether users would feel stressed to see the time loss, and possibly redesign each stage as a progress bar.
 
 
-2. **New Truman Clock: Designing a day with ascending progress**
+2. **Solar Clock: Designing a day with ascending progress**
 - Introduction: Truman clock a functional clock that tells about four stages in a typical day, from morning, afternoon, evening to night. By default, we set up four equal length of time scale (6 hours) for each stage, and they evenly divide 24 hours with a different color. 
 - Morning: we display "Good morning" with a light green color that represents a fresh, clean and healthy start of the day. It begins at the sunrise and lasts until 12pm, excluding the instant time of 12pm. By default, the screen is black, and at the time of actual sunrise, the screen started to proceed with the green color with a percentage shown in the middle as the time goes to 12pm. 
 - Afternoon: we display "Good afternoon" with a light orange color that represents a recharging, exciting state to refresh user's mind. It begins at 12pm and lasts until the time of sunset, excluding the sunset time. By default, the screen is black, and at the time of 12pm, the screen started to proceed with the orange color with a percentage shown in the middle as the time goes to the sunset. 
@@ -257,3 +254,4 @@ You are permitted (but not required) to work in groups and share a turn in; you 
 
 
 3. Video of the Truman Clock:
+https://youtu.be/IOqQhXKpP5w

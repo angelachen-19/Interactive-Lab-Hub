@@ -253,7 +253,7 @@ You are permitted (but not required) to work in groups and share a turn in; you 
 - Proximity feature: we introduced the proximity sensor feature that tells the actual real time when user puts their palm on the sensor, the screen will switch to a new screen showing the actual time formatting with date, plus real-time “hour+minute+second”. The actual-time screen will last around five seconds and automatically switch back to proceeding progress bar. 
 - Significance: based on our feedback, we hope that people using this clock will find a more **relaxing** way to check out the time at a day. Rather than looking at the actual time format, they are shown the primary screens of each stage (morning, afternoon, evening and night) with different colors of progress bar where they would be able to have a sense about the approximate time of the day. In some cases, people need to check out the actual time, so what they can do is simply to put their palm on the sensor and the screen will switch to showing the actual time, in the format of date, plus real-time “hour+minute+second”.
 - Here are the images of the iterated sketch for the new truman clock:
-![image](https://user-images.githubusercontent.com/61665501/135128885-5d12b6db-6c35-4161-ba5a-fa4ddb88a84d.png)
+![image](https://user-images.githubusercontent.com/61665501/135129761-f8eba48f-36b1-46da-9bb0-4aa9fd51e6bf.png)
 
 
 3. Video of the Truman Clock:

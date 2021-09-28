@@ -238,4 +238,20 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
+***Update of Lab2 Design.***
+1. I collaborated with Kaiyuan Deng (kd487) on this lab and we were able to receive some thoughtful feedback from during the Thursday lab session. We debriefed as the following: 
+- The idea of adding meditation possibly to the truman clock design is cool. It adds more awareness of wellness and maintaining healthy life. But it will depend on if the audio is actually feasible for this lab. 
+- In the next iterations, think about whether users would feel stressed to see the time loss, and possibly redesign each stage as a progress bar.
 
+
+2. New Truman Clock: Designing a day with ascending progress
+- Introduction: Truman clock a functional clock that tells about four stages in a typical day, from morning, afternoon, evening to night. By default, we set up four equal length of time scale (6 hours) for each stage, and they evenly divide 24 hours with a different color. 
+- Morning: we display "Good morning" with a light green color that represents a fresh, clean and healthy start of the day. It begins at the sunrise and lasts until 12pm, excluding the instant time of 12pm. By default, the screen is black, and at the time of actual sunrise, the screen started to proceed with the green color with a percentage shown in the middle as the time goes to 12pm. 
+- Afternoon: we display "Good afternoon" with a light orange color that represents a recharging, exciting state to refresh user's mind. It begins at 12pm and lasts until the time of sunset, excluding the sunset time. By default, the screen is black, and at the time of 12pm, the screen started to proceed with the orange color with a percentage shown in the middle as the time goes to the sunset. 
+- Evening: we then display "Good evening" with a darker blue that shows the after hours, when sun goes down and when user finishes a day. It begins at 6pm and lasts until 12am, excluding the point of 12am. By default, the screen is black, and at the time of 6pm, the screen started to proceed with the blue color with a percentage shown in the middle as the time goes to 12am. 
+- Lastly, "Good night" stands for showing the last stage of a day where user will rest for the day, with a dark purple scheme that stands for the sleeping mode. It begins at 12am and lasts until 6am, the next day when a new round of the truman clock operates. 
+- Proximity feature: we introduced the proximity sensor feature that tells the actual real time when user puts their palm on the sensor, the screen will switch to a new screen showing the actual time formatting with date, plus real-time hour+minute+second. The actual-time screen will last around five seconds and automatically switch back to proceeding progress bar. 
+- Significance: based on our feedback, we hope that people using this clock will find a more **relaxing** way to check out the time at a day. Rather than looking at the actual time format, they are shown the primary screens of each stage (morning, afternoon, evening and night) with different colors of progress bar where they would be able to have a sense about the approximate time of the day. In some cases, people need to check out the actual time, so what they can do is simply to put their palm on the sensor and the screen will switch to showing the actual time, in the format of date, plus real-time hour+minute+second.
+- Here are the images of the iterated sketch for the new truman clock:
+
+3. Video of the Truman Clock:

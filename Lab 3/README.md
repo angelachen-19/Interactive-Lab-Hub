@@ -109,7 +109,7 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 
 \*\***Please describe and document your process.**\*\*
 A visualized dialogue is shown as below, where the user input is on the left side, while the assistant response is on the right side.
-https://github.com/angelachen-19/Interactive-Lab-Hub/blob/Fall2021/Lab%203/lab%203%20dialogue%20-%20Frame%201.jpg
+![image](https://user-images.githubusercontent.com/61665501/135961080-77c2f7f6-4c60-4914-a8b1-06a2a860a270.png)
 
 
 ### Acting out the dialogue

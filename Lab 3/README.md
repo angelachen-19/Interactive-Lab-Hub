@@ -55,7 +55,7 @@ You can also play audio files directly with `aplay filename`. Try typing `aplay 
 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
-My own shell file was named as "tts_angela.sh" in my repo.
+- My own shell file was named as "tts_angela.sh" in my repo.
 
 Bonus: If this topic is very exciting to you, you can try out this new TTS system we recently learned about: https://github.com/rhasspy/larynx
 
@@ -68,8 +68,7 @@ In particular, look at `test_words.py` and make sure you understand how the voca
 One thing you might need to pay attention to is the audio input setting of Pi. Since you are plugging the USB cable of your webcam to your Pi at the same time to act as speaker, the default input might be set to the webcam microphone, which will not be working for recording.
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
-
-My own shell file was named as "stt_angela.sh" in my repo.
+- My own shell file was named as "stt_angela.sh" in my repo.
 
 
 Bonus Activity:
@@ -106,13 +105,12 @@ From a remote browser on the same network, check to make sure your webserver is 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
 \*\***Post your storyboard and diagram here.**\*\*
-
-![image](https://user-images.githubusercontent.com/61665501/135937252-f79969f4-51d4-46e9-9a0f-cde5015823ba.png)
+- ![image](https://user-images.githubusercontent.com/61665501/135937252-f79969f4-51d4-46e9-9a0f-cde5015823ba.png)
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 \*\***Please describe and document your process.**\*\*
-A visualized dialogue is shown as below, where the user input is on the left side, while the assistant response is on the right side.
+- A visualized dialogue is shown as below, where the user input is on the left side, while the assistant response is on the right side.
 ![image](https://user-images.githubusercontent.com/61665501/135961080-77c2f7f6-4c60-4914-a8b1-06a2a860a270.png)
 
 
@@ -121,7 +119,7 @@ A visualized dialogue is shown as below, where the user input is on the left sid
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
-I invited a friend to be the user of the smart makeup voice assistant, while I serve as the makeup voice assistant. The quality of the actual conversation mostly remained the same as shown in the visual dialogue above, but I found that the user needed to speak out the wakening word to wake up the makeup assistant. Things also need to consider are how the makeup changes when the voices are out, such as changes of shapes, or a speaker-like interaction.
+- I invited a friend to be the user of the smart makeup voice assistant, while I serve as the makeup voice assistant. The quality of the actual conversation mostly remained the same as shown in the visual dialogue above, but I found that the user needed to speak out the wakening word to wake up the makeup assistant. Things also need to consider are how the makeup changes when the voices are out, such as changes of shapes, or a speaker-like interaction.
 Here is a video of the dialogue acting out:
 https://youtu.be/HNh9fxkBFZU
 

@@ -145,7 +145,8 @@ I received some thoughtful feedback from my peers. I debriefed some key takeaway
 
 
 Decision making: In my final design (Part 2), I will continue my idea but adding more focus on xxx.
-Here is a revised storyboard  
+Here is a revised storyboard: ![image](https://user-images.githubusercontent.com/61665501/136891224-b3c6ae52-2108-4e79-9602-77132aac9a4f.png)
+
 
 ## Prototype your system
 

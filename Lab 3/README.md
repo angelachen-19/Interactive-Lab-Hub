@@ -139,6 +139,14 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
 3. Make a new storyboard, diagram and/or script based on these reflections.
 
+I received some thoughtful feedback from my peers. I debriefed some key takeaways:
+- Both reviewers said that it was hard to tell whether the voice device is a eyeshadow palatte or something else (could be a laptop based on the shape? **misunderstanding**). It's important to highlight the characteristics of eyeshadow palatte and clarify that the user is doing a makeup while having the conversation with the makeup assistant.
+- The dialogue did a good job in explaining what the conversation looks like between the makeup voice assistant and the user. Possibly explore more conversational interactions in the final design.
+
+
+Decision making: In my final design (Part 2), I will continue my idea but adding more focus on xxx.
+Here is a revised storyboard  
+
 ## Prototype your system
 
 The system should:

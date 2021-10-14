@@ -128,6 +128,8 @@ https://youtu.be/HNh9fxkBFZU
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
 
 \*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
+- I tried out playing the example code in Wizard of Oz project, and found that the system can recognize the key words but not a full sentence, so this is different from my dialogue where I created a natural conversation between the user and the voice assistant. 
+
 
 # Lab 3 Part 2
 
@@ -143,9 +145,9 @@ I received some thoughtful feedback from my peers. I debriefed some key takeaway
 - Both reviewers said that it was hard to tell whether the voice device is a eyeshadow palatte or something else (could be a laptop based on the shape? **misunderstanding**). It's important to highlight the characteristics of eyeshadow palatte and clarify that the user is doing a makeup while having the conversation with the makeup assistant.
 - The dialogue did a good job in explaining what the conversation looks like between the makeup voice assistant and the user. Possibly explore more conversational interactions in the final design.
 
+Decision making: because of the time limitation, I worked by myself in this lab and decided to adopt the Wizarding with the Pi as the template to work on my part 2. I primarily revised the index.js file in the sub-folder, "static" in the demo folder. In my design design, a user input should include one/some keywords of a certain occasion so that the voice assistant can recognize and recommend the relevant colors. Here is a revised storyboard: ![image](https://user-images.githubusercontent.com/61665501/136891224-b3c6ae52-2108-4e79-9602-77132aac9a4f.png) 
 
-Decision making: In my final design (Part 2), I will continue my idea and the dialogue but adding more focus on the interaction between the voice assistant and the user.
-Here is a revised storyboard: ![image](https://user-images.githubusercontent.com/61665501/136891224-b3c6ae52-2108-4e79-9602-77132aac9a4f.png)
+I also revised my dialogue to align with the final design. To simplify the process, there will be only one-round conversation between the user and the assistant. 
 
 
 ## Prototype your system
@@ -165,18 +167,15 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+- 
 
 ### What worked well about the controller and what didn't?
-
-\*\**your answer here*\*\*
+- 
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-
-\*\**your answer here*\*\*
+- 
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-
-\*\**your answer here*\*\*
+- 
 

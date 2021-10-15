@@ -68,10 +68,6 @@ play.onclick = () => {
   }
   
 }
-
-setInterval(() => {
-  socket.emit('ping-gps', 'dat')
-}, 100)
 //
 
 // disconnect socket
@@ -80,6 +76,10 @@ socket.on('disconnect', () => {
   mic.src = ''
 
   });
+
+  setInterval(() => {
+    socket.emit('ping-gps', 'dat')
+  }, 100)
 
 var vlSpec = {
   $schema: 'https://vega.github.io/schema/vega-lite/v5.json',

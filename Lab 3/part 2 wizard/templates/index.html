@@ -30,6 +30,7 @@
     <label>Speak
         <input type="text" id='wordsIn' style="width:350px">
         <button id='speak'>send</button>
+        <audio id='mic' src="http://{{ hostname }}.local:8080" ></audio>
 
     </label>
 
@@ -37,7 +38,6 @@
     <label>Voice flow</label><br>
     <div id='chart'></div>
     <button id='play'>play</button>>
-    <audio id='mic' src="http://{{ hostname }}.local:8080" ></audio>
 
 
 <script src="static/index.js"></script>

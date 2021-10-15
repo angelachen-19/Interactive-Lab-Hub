@@ -145,7 +145,7 @@ I received some thoughtful feedback from my peers. I debriefed some key takeaway
 - Both reviewers said that it was hard to tell whether the voice device is a eyeshadow palatte or something else (could be a laptop based on the shape? **misunderstanding**). It's important to highlight the characteristics of eyeshadow palatte and clarify that the user is doing a makeup while having the conversation with the makeup assistant.
 - The dialogue did a good job in explaining what the conversation looks like between the makeup voice assistant and the user. Possibly explore more conversational interactions in the final design.
 
-Decision making: because of the time limitation, I worked by myself in this lab and decided to adopt the Wizarding with the Pi as the template to work on my part 2. I primarily revised the index.js file in the sub-folder, "static" in the demo folder. In my design design, a user input should include one/some keywords of a certain occasion so that the voice assistant can recognize and recommend the relevant colors. Here is a revised storyboard: ![image](https://user-images.githubusercontent.com/61665501/136891224-b3c6ae52-2108-4e79-9602-77132aac9a4f.png) 
+**Decision making: Interactive Makeup Assistant**: because of the time limitation, I worked by myself in this lab and decided to adopt the Wizarding with the Pi as the template to work on my part 2. I primarily revised the index.js file in the sub-folder, "static" in the demo folder. In my design design, a user input should include one/some keywords of a certain occasion so that the voice assistant can recognize and recommend the relevant colors. Here is a revised storyboard: ![image](https://user-images.githubusercontent.com/61665501/136891224-b3c6ae52-2108-4e79-9602-77132aac9a4f.png) 
 
 I also revised my dialogue to align with the final design. To simplify the process, there will be only one-round conversation between the user and the assistant. 
 
@@ -160,6 +160,7 @@ The system should:
 *Document how the system works*
 
 *Include videos or screencaptures of both the system and the controller.*
+Here's the link to the video of the system and the controller: https://youtu.be/FofrYXnKDC8. Due to privacy reasons, I recorded the interaction with one of the users only but included both of their feedback in the writeup **test the system** below.
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
@@ -167,15 +168,15 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-- 
+- The users can follow the dialogue and spoke out naturally to conduct the conversation well. However, both pointed out that the dialogue can be longer and with more variations because the users might not enjoy the 1) colors existing in the eyeshadow palatte and would like to ask the assistant to change, and 2) colors recommended by the assistant and would ask for some alternatives. 
 
 ### What worked well about the controller and what didn't?
-- 
+- The controller could monitor well to "understand" what the users were asking for, and provided the relevant recommendations to their needs. However, from the users' persepctives, they pointed out that the dialogue speed of the voice assistant should be **slower** so that they can fully understand the answers provided by it. 
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-- 
+- The WoZ interactions served as an alternative of the voice assistant where we are preloading the dialogue in the system. Compared to the real-life scenario, it is not fully autonomous because the dialogue is pre-set and less natural, and it only recognizes the keywords but might not be able to vary based on different user inputs. I decided to use WoZ interactions in this assignment because of the limitations of time for this lab, but in the future project I would love to design a more complicated voice interaction system where it can catch not only the keywords but the full sentence from users' input to provide more accurate, concise and natural conversations with them.
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-- 
+- In my ideal design outcome, the eyeshadow palatte has a voice assistant feature that is able to talk with the user to recommend relevant colors for certain occasions. My system could collect the content of each user response and **recognize** each occasion as the category of different color combinations. In addition, the system might also recognize different tones and speeds by users' input and understand their needs based the **emotions**, it might be challenging but fun to see how well the system can emotionally recognize, and how it can cope with more complicated conversational scenarios. 
 

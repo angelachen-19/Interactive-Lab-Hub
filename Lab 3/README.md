@@ -160,7 +160,9 @@ The system should:
 *Document how the system works*
 
 *Include videos or screencaptures of both the system and the controller.*
-Here's the link to the video of the system and the controller: https://youtu.be/FofrYXnKDC8. Due to privacy reasons, I recorded the interaction with one of the users only but included both of their feedback in the writeup **test the system** below.
+- Here's the link to the video of the system and the controller: **https://youtu.be/FofrYXnKDC8**. Due to privacy reasons, I recorded the interaction with one of the users only but included both of their feedback in the writeup **test the system** below.
+- user testing screenshot: ![image](https://user-images.githubusercontent.com/61665501/137548109-2da3e4d1-a390-409f-a776-e5a2b66c0559.png)
+
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)

@@ -175,9 +175,32 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
+**1. Electrical Drum Sets**
+![image](https://user-images.githubusercontent.com/61665501/137841364-bbae9d39-5ec9-4acc-a116-3955e751e1da.png)
+![image](https://user-images.githubusercontent.com/61665501/137841467-e7fe0c8c-3939-44aa-a848-c81061120a24.png)
+![image](https://user-images.githubusercontent.com/61665501/137841486-13e6a02a-65d4-4fbc-8d3f-8d63c52dc081.png)
+
+**2. Interactable Alarm**
+![image](https://user-images.githubusercontent.com/61665501/137841923-65a940c1-5a46-4db9-baa9-fbf4075c4c9c.png)
+![image](https://user-images.githubusercontent.com/61665501/137841937-ffe8bfc9-eb12-403b-90bc-005608997dc9.png)
+![image](https://user-images.githubusercontent.com/61665501/137841944-5363ac9c-06bb-414d-afb8-885f3d9b5661.png)
+
+**3. Height Measurement Senser:**
+![image](https://user-images.githubusercontent.com/61665501/137842123-5b7ac87b-42cc-4b59-a8b9-89531a8d7166.png)
+
+**4. Interactive Voice Mirror:**
+![image](https://user-images.githubusercontent.com/61665501/137842356-288893ec-fd09-4124-9495-c50098d5712c.png)
+
+**5. Height Measurement Senser:**
+![image](https://user-images.githubusercontent.com/61665501/137842244-eb2f6111-2208-4c88-806d-0f96df14e039.png)
+
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+- I was discussing with teammates that in terms of the applications of these sensors, it is important to consider if we should really adopt buttons and joysticks. We also think of what is the optimal size of the interface board so that users will feel mostly comfortable to interact with. 
+
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
+- we made the final decision to prototype the first design idea: **Electrical Drum Set**. 
 
 
 ### Part D
@@ -219,16 +242,26 @@ Here is an example:
 Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
+- For the electrical drum set, we made the following design guidelines that introduce how a user physically positions this display and interact with it. 
+- ![image](https://user-images.githubusercontent.com/61665501/137849687-27067a78-3e23-4dc4-b487-fa02c2c25cb3.png)
+
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+- We notice several questions like whether we should put the rotary at the top of left side of the device, which way is implementable and which is not. The angle between the top panel (where all the drums and cymbals are placed) and the front panel so that the user can clearly see our screen while focuing on the drums. And again the distance between each sensor and button to make the device usable.
+
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+- And we choose to set the display at the **front** of the device.
+
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+- We intentionally placed the display on the front side not the top of the device because we think the display will disturb the musician while playing. When the user want to adjust the settings of our digital drum set, they will look down a bit and see the display. This design logic helps user to focus on playing the drum and not what has been displayed.
+
 
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
+- the prototype is still undergoing. will be shown in the part 2..
 
 
 LAB PART 2

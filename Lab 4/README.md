@@ -261,7 +261,7 @@ Think about how you want to present the information about what your sensor is se
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
-- the prototype is still undergoing. will be shown in the part 2..
+- the prototype is still undergoing during our first stage. However, we were able to create a rough skeleton of our electrical drum set using cardboard based on the 5-design sketch image above. Here's an image of the skeleton for the prototype: 
 
 
 LAB PART 2

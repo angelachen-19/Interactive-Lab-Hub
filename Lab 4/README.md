@@ -323,6 +323,8 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 2. **rhaspaberry pi**: serves as the main control for the whole prototype, connecting capacitive sensing and rotary encoder, as well as display the mode of music variation on its display screen. 
 3. **capacitive sensing**: serves as the Human-Twizzler Interaction that functions as the nine sensors for drums, each connecting to a drum button. It's **hidden** in the cardboard, as shown in the 5-design sketch in part 1.
 
+- **Code**: in cap_test_v2.py.
+
 - **How to use**: players can place the mini drum set in any flat surface, and it's portable because of the light weight and easy-handling. When ready to play, they are facing the button side and **press** using fingers on each button to perform out the sounds. As they play, each button connects to a different audio that is already stored in the system and act the music out!
 - **Final Video**: https://www.youtube.com/watch?v=-j0zzejkRAQ
 - User interaction: Here is an image of a user interacting with the drum set:

@@ -247,7 +247,7 @@ Think about how you want to present the information about what your sensor is se
 
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
-- We notice several questions like whether we should put the rotary at the top of left side of the device, which way is implementable and which is not. The angle between the top panel (where all the drums and cymbals are placed) and the front panel so that the user can clearly see our screen while focuing on the drums. And again the distance between each sensor and button to make the device usable.
+- We noticed several questions, such as whether we should put the rotary at the top of left side of the device, which way is implementable and which is not. The angle between the top panel (where all the drums and cymbals are placed) and the front panel are designed to be placed on the same interfaces, so players can clearly see the screen while playing drums. In addition, the distance between each sensor and the button is desgined to make the device more usable.
 
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
@@ -255,7 +255,7 @@ Think about how you want to present the information about what your sensor is se
 
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
-- We intentionally placed the display on the front side not the top of the device because we think the display will disturb the musician while playing. When the user want to adjust the settings of our digital drum set, they will look down a bit and see the display. This design logic helps user to focus on playing the drum and not what has been displayed.
+- We intentionally placed the display on the front side not the top of the device because we think the screen display might bother the player while he is play. When he would like to adjust the setting of electrical drum set, he will be able to look downwards/updwards of the display, meaning that the display and the drums are placed on the same interface. It is intended to simulate a easy but highly interactive drum performing process.
 
 
 Build a cardbord prototype of your design.

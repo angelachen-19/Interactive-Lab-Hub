@@ -262,6 +262,8 @@ Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
 - the prototype is still undergoing during our first stage. However, we were able to create a rough skeleton of our electrical drum set using cardboard based on the 5-design sketch image above. Here's an image of the skeleton for the prototype: 
+![rough prototype-min](https://user-images.githubusercontent.com/61665501/138792727-db077afa-62d1-410a-80d0-6f4595740e17.jpg)
+
 
 
 LAB PART 2

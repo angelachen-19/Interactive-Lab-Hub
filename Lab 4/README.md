@@ -309,3 +309,22 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
 
+**Electrical Drum Set: Play Your Music with Various Genres at One Set**
+- We finalized our cardboard prototype: electrical drum set after several discussions and iterations. Along with my awesome and inspiring teammates: Jiahao Dong (jd787) and Shenxin Jiang (sj544), we created this drum set with two music genres: 1) **classical jazz drum** and 2) **traditional Chinese drum** on the same key buttons. We outlined the prototype to be performed in two varations and see how magical the music can be performed. 
+- Changes in our final design: we decided to switch the position of the screen display and the drum buttons due to the design inspiration, and here are some images of the final prototype:
+1. Overview of prototype from outside: ![drum_p1-min](https://user-images.githubusercontent.com/61665501/138794147-124acd9a-95cc-45ac-9f59-5fa17bae9257.jpeg)
+2. Details of the prototype with notes: ![image](https://user-images.githubusercontent.com/61665501/138805061-d8bdbfae-e776-47cf-b77e-46de631c3a28.png)
+3. Overview of prototype from inside details: ![drum_p3-min](https://user-images.githubusercontent.com/61665501/138794154-87078099-b797-4a86-a79c-47ee6cd7cfc9.jpeg)
+5. Overview of prototype from inside details: ![drum_p4](https://user-images.githubusercontent.com/61665501/138803564-47196d2b-546e-484d-a908-94ff7b20fbaf.jpeg)
+
+
+- Equipment used: 
+1. **rotary encoder**: serves as the switch between different variations
+2. **rhaspaberry pi**: serves as the main control for the whole prototype, connecting capacitive sensing and rotary encoder, as well as display the mode of music variation on its display screen. 
+3. **capacitive sensing**: serves as the Human-Twizzler Interaction that functions as the nine sensors for drums, each connecting to a drum button. It's **hidden** in the cardboard, as shown in the 5-design sketch in part 1.
+
+- **How to use**: players can place the mini drum set in any flat surface, and it's portable because of the light weight and easy-handling. When ready to play, they are facing the button side and **press** using fingers on each button to perform out the sounds. As they play, each button connects to a different audio that is already stored in the system and act the music out!
+- **Final Video**: https://www.youtube.com/watch?v=-j0zzejkRAQ
+- User interaction: Here is an image of a user interacting with the drum set:
+![image](https://user-images.githubusercontent.com/61665501/138804103-ae06167c-ca36-4801-8151-cf918db3a919.png)
+

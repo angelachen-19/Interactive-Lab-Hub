@@ -175,9 +175,32 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
+**1. Electrical Drum Sets**
+![image](https://user-images.githubusercontent.com/61665501/137841364-bbae9d39-5ec9-4acc-a116-3955e751e1da.png)
+![image](https://user-images.githubusercontent.com/61665501/137841467-e7fe0c8c-3939-44aa-a848-c81061120a24.png)
+![image](https://user-images.githubusercontent.com/61665501/137841486-13e6a02a-65d4-4fbc-8d3f-8d63c52dc081.png)
+
+**2. Interactable Alarm**
+![image](https://user-images.githubusercontent.com/61665501/137841923-65a940c1-5a46-4db9-baa9-fbf4075c4c9c.png)
+![image](https://user-images.githubusercontent.com/61665501/137841937-ffe8bfc9-eb12-403b-90bc-005608997dc9.png)
+![image](https://user-images.githubusercontent.com/61665501/137841944-5363ac9c-06bb-414d-afb8-885f3d9b5661.png)
+
+**3. Height Measurement Senser:**
+![image](https://user-images.githubusercontent.com/61665501/137842123-5b7ac87b-42cc-4b59-a8b9-89531a8d7166.png)
+
+**4. Interactive Voice Mirror:**
+![image](https://user-images.githubusercontent.com/61665501/137842356-288893ec-fd09-4124-9495-c50098d5712c.png)
+
+**5. Height Measurement Senser:**
+![image](https://user-images.githubusercontent.com/61665501/137842244-eb2f6111-2208-4c88-806d-0f96df14e039.png)
+
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+- I was discussing with teammates that in terms of the applications of these sensors, it is important to consider if we should really adopt buttons and joysticks. We also think of what is the optimal size of the interface board so that users will feel mostly comfortable to interact with. 
+
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
+- we made the final decision to prototype the first design idea: **Electrical Drum Set**. 
 
 
 ### Part D
@@ -219,16 +242,28 @@ Here is an example:
 Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
+- For the electrical drum set, we made the following design guidelines that introduce how a user physically positions this display and interact with it. 
+- ![image](https://user-images.githubusercontent.com/61665501/137849687-27067a78-3e23-4dc4-b487-fa02c2c25cb3.png)
+
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+- We noticed several questions, such as whether we should put the rotary at the top of left side of the device, which way is implementable and which is not. The angle between the top panel (where all the drums and cymbals are placed) and the front panel are designed to be placed on the same interfaces, so players can clearly see the screen while playing drums. In addition, the distance between each sensor and the button is desgined to make the device more usable.
+
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+- And we choose to set the display at the **front** of the device.
+
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+- We intentionally placed the display on the front side not the top of the device because we think the screen display might bother the player while he is play. When he would like to adjust the setting of electrical drum set, he will be able to look downwards/updwards of the display, meaning that the display and the drums are placed on the same interface. It is intended to simulate a easy but highly interactive drum performing process.
+
 
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
+- the prototype is still undergoing during our first stage. However, we were able to create a rough skeleton of our electrical drum set using cardboard based on the 5-design sketch image above. Here's an image of the skeleton for the prototype: 
+![rough prototype-min](https://user-images.githubusercontent.com/61665501/138792727-db077afa-62d1-410a-80d0-6f4595740e17.jpg)
+
 
 
 LAB PART 2
@@ -273,4 +308,25 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
+
+**Electrical Drum Set: Play Your Music with Various Genres at One Set**
+- We finalized our cardboard prototype: electrical drum set after several discussions and iterations. Along with my awesome and inspiring teammates: Jiahao Dong (jd787) and Shenxin Jiang (sj544), we created this drum set with two music genres: 1) **classical jazz drum** and 2) **traditional Chinese drum** on the same key buttons. We outlined the prototype to be performed in two varations and see how magical the music can be performed. 
+- Changes in our final design: we decided to switch the position of the screen display and the drum buttons due to the design inspiration, and here are some images of the final prototype:
+1. Overview of prototype from outside: ![drum_p1-min](https://user-images.githubusercontent.com/61665501/138794147-124acd9a-95cc-45ac-9f59-5fa17bae9257.jpeg)
+2. Details of the prototype with notes: ![image](https://user-images.githubusercontent.com/61665501/138805061-d8bdbfae-e776-47cf-b77e-46de631c3a28.png)
+3. Overview of prototype from inside details: ![drum_p3-min](https://user-images.githubusercontent.com/61665501/138794154-87078099-b797-4a86-a79c-47ee6cd7cfc9.jpeg)
+5. Overview of prototype from inside details: ![drum_p4](https://user-images.githubusercontent.com/61665501/138803564-47196d2b-546e-484d-a908-94ff7b20fbaf.jpeg)
+
+
+- Equipment used: 
+1. **rotary encoder**: serves as the switch between different variations
+2. **rhaspaberry pi**: serves as the main control for the whole prototype, connecting capacitive sensing and rotary encoder, as well as display the mode of music variation on its display screen. 
+3. **capacitive sensing**: serves as the Human-Twizzler Interaction that functions as the nine sensors for drums, each connecting to a drum button. It's **hidden** in the cardboard, as shown in the 5-design sketch in part 1.
+
+- **Code**: in cap_test_v2.py.
+
+- **How to use**: players can place the mini drum set in any flat surface, and it's portable because of the light weight and easy-handling. When ready to play, they are facing the button side and **press** using fingers on each button to perform out the sounds. As they play, each button connects to a different audio that is already stored in the system and act the music out!
+- **Final Video**: https://www.youtube.com/watch?v=-j0zzejkRAQ
+- User interaction: Here is an image of a user interacting with the drum set:
+![image](https://user-images.githubusercontent.com/61665501/138804103-ae06167c-ca36-4801-8151-cf918db3a919.png)
 

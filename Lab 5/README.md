@@ -215,9 +215,13 @@ For example:
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+- User is able to be aware of the uncertainties (such as hand placed in the marginal area to be detected by camera) in the system
+3. How bad would they be impacted by a miss classification?
+- User will be asked to do again, to make sure their palm and "yeah" pose is fully detected by the camera.
+5. How could change your interactive system to address this?
+- We planned to modify our code to consider the marginzalied uncetainty to make the system more flexible.
+7. Are there optimizations you can try to do on your sense-making algorithm.
+
 
 ### Part D
 ### Characterize your own Observant system

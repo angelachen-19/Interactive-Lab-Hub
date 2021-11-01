@@ -171,6 +171,7 @@ This might take a while to get fully installed. After installation, connect your
 (**Optionally**: You can train your own model, too. First, visit [TeachableMachines](https://teachablemachine.withgoogle.com/train), select Image Project and Standard model. Second, use the webcam on your computer to train a model. For each class try to have over 50 samples, and consider adding a background class where you have nothing in view so the model is trained to know that this is the background. Then create classes based on what you want the model to classify. Lastly, preview and iterate, or export your model as a 'Tensorflow' model, and select 'Keras'. You will find an '.h5' file and a 'labels.txt' file. These are included in this labs 'teachable_machines' folder, to make the PPE model you used earlier. You can make your own folder or replace these to make your own classifier.)
 
 **\*\*\*Whether you make your own model or not, include screenshots of your use of Teachable Machines, and write how you might use this to create your own classifier. Include what different affordances this method brings, compared to the OpenCV or MediaPipe options.\*\*\***
+- Here's a screenshot of our try: ![image](https://user-images.githubusercontent.com/61665501/139731742-93da2ab2-6842-4e7b-afa2-4a33039a993b.png)
 
 
 *Don't forget to run ```deactivate``` to end the Teachable Machines demo, and to reactivate with ```source tmachine/bin/activate``` when you want to use it again.*
@@ -188,6 +189,7 @@ Using the accelerometer, try the following:
 **3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
 
 **\*\*\*Include links to your code here, and put the code for these in your repo--they will come in handy later.\*\*\***
+- Here is the link to our code: Lab 5/part1.py
 
 
 ### Part B
@@ -198,6 +200,7 @@ This can be as simple as the boat detector earlier.
 Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
+- In this part, we created a very simple interaction that allows user to make a "yeah" pose in front of the camera. In this experiment, we adopted Google's MediaPipe that offers the hand pose detection. When a hand is shown the "yeah" gesture with both index and middle fingers up, the camera will be able to recognize the pose and display a "yeah" text on the screen that confirms the accurate information detected.
 
 ### Part C
 ### Test the interaction prototype

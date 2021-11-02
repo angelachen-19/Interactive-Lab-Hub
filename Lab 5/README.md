@@ -244,6 +244,7 @@ For example:
 3. How could change your interactive system to address this?
 - We planned to modify our code to consider the marginzalied uncetainty to make the system more flexible.
 4. Are there optimizations you can try to do on your sense-making algorithm.
+- adding more code? :)
 
 
 ### Part D
@@ -260,6 +261,8 @@ During the lecture, we mentioned questions to help characterize a material:
 * How does X feel?
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
+the video: https://youtu.be/R6-CVpC9aQI
+
 
 ### Part 2.
 

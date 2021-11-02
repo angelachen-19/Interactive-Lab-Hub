@@ -99,6 +99,16 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 ```
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
+- The first example: **Contour** in which this detection can be used to detect the borders of objects, hence we can use it to draw the outlines of objects in our images. The outlines can be extracted to draw a sketch of the objects in the original image. 
+![image](https://user-images.githubusercontent.com/61665501/139780534-30717bd7-6ae6-4dba-82eb-33755ab8e9c4.png)
+
+- The second example: **facial detection**, TODO: the user (Yehao) put your screenshots in; if there is a face in the image/video feeds, then greet the person with “why so serious?”
+- The third example: **optical flow**, tracking the trajectory of moving objects.
+![image](https://user-images.githubusercontent.com/61665501/139780562-1f18de31-bb73-4246-b0db-0c35e0b14141.png)
+
+- The fourth example: **object detection**, adopting object detection to build an educational application for identifying different animals.
+![image](https://user-images.githubusercontent.com/61665501/139780636-b6361414-ad3c-4ca2-b341-68ca9da1aceb.png)
+
 
 #### MediaPipe
 
@@ -135,6 +145,7 @@ Each of the installs will take a while, please be patient. After successfully in
 Try the two main features of this script: 1) pinching for percentage control, and 2) "[Quiet Coyote](https://www.youtube.com/watch?v=qsKlNVpY7zg)" for instant percentage setting. Notice how this example uses hardcoded positions and relates those positions with a desired set of events, in `hand_pose.py` lines 48-53. 
 
 **\*\*\*Consider how you might use this position based approach to create an interaction, and write how you might use it on either face, hand or body pose tracking.\*\*\***
+- Body pose tracking can be used to track the body movement during a workout session. Based on the movements, we can give meaningful feedback to the users to facilitate their workout. 
 
 (You might also consider how this notion of percentage control with hand tracking might be used in some of the physical UI you may have experimented with in the last lab, for instance in controlling a servo or rotary encoder.)
 
@@ -171,9 +182,11 @@ This might take a while to get fully installed. After installation, connect your
 (**Optionally**: You can train your own model, too. First, visit [TeachableMachines](https://teachablemachine.withgoogle.com/train), select Image Project and Standard model. Second, use the webcam on your computer to train a model. For each class try to have over 50 samples, and consider adding a background class where you have nothing in view so the model is trained to know that this is the background. Then create classes based on what you want the model to classify. Lastly, preview and iterate, or export your model as a 'Tensorflow' model, and select 'Keras'. You will find an '.h5' file and a 'labels.txt' file. These are included in this labs 'teachable_machines' folder, to make the PPE model you used earlier. You can make your own folder or replace these to make your own classifier.)
 
 **\*\*\*Whether you make your own model or not, include screenshots of your use of Teachable Machines, and write how you might use this to create your own classifier. Include what different affordances this method brings, compared to the OpenCV or MediaPipe options.\*\*\***
-- Here's a screenshot of our try: 
-![image](https://user-images.githubusercontent.com/61665501/139731742-93da2ab2-6842-4e7b-afa2-4a33039a993b.png)
-
+- Here's a screenshot of our try on teachable machine: ![image](https://user-images.githubusercontent.com/61665501/139779261-278a7393-1819-4798-8848-8b91c698ac7e.png)
+- Compared to the OpenCV and MediaPipe options, teachable meachine has:
+1. An intuitive graphical interface for a user to collect data, train the model, and see the model performance. 
+2. Probabilities for each class which helps the user understand how the prediction is made. 
+3. platform for classifying data of different modalities, including images and sounds.
 
 *Don't forget to run ```deactivate``` to end the Teachable Machines demo, and to reactivate with ```source tmachine/bin/activate``` when you want to use it again.*
 
@@ -202,6 +215,7 @@ Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 - In this part, we created a very simple interaction that allows user to make a "yeah" pose in front of the camera. In this experiment, we adopted Google's MediaPipe that offers the hand pose detection. When a hand is shown the "yeah" gesture with both index and middle fingers up, the camera will be able to recognize the pose and display a "yeah" text on the screen that confirms the accurate information detected.
+- A video showing the hand interaction with the system: https://youtu.be/R4UWQaEk4B8.
 
 ### Part C
 ### Test the interaction prototype
@@ -209,18 +223,27 @@ Try out different interaction outputs and inputs.
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+- When the user makes the “yeah” gesture at a certain distance from the camera.
+2. When does it fail?
+- when the user’s hand is too far away from the camera.
+- when two hands are detected by the camera.
+- when the user keeps the pose for a quite short of time
+3. When it fails, why does it fail?
+- because The system fails when the user’s hand is too far away from the camera because we coded for absolute distance between fingertips rather than relative distances. When the user’s hand is too far, the absolute distance may fall beyond the threshold, and thus fail to trigger the shooting action.
+- The system fails when two hands are detected by the camera because the tracking of fingertips under such circumstances becomes unstable, which makes the calculation of distances between fingertips inaccurate.
+- The system fails when the user keeps the gesture only for a very short time period because the camera is taking a picture at around 12fps and it may not capture the moment when the user makes the gesture.
+
+4. Based on the behavior you have seen, what other scenarios could cause problems?
+- If there are multiple people in the same picture, they may make the “yeah” gesture at the same time, and this can make tracking gestures difficult for the system.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
 - User is able to be aware of the uncertainties (such as hand placed in the marginal area to be detected by camera) in the system
-3. How bad would they be impacted by a miss classification?
+2. How bad would they be impacted by a miss classification?
 - User will be asked to do again, to make sure their palm and "yeah" pose is fully detected by the camera.
-5. How could change your interactive system to address this?
+3. How could change your interactive system to address this?
 - We planned to modify our code to consider the marginzalied uncetainty to make the system more flexible.
-7. Are there optimizations you can try to do on your sense-making algorithm.
+4. Are there optimizations you can try to do on your sense-making algorithm.
 
 
 ### Part D

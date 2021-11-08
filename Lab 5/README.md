@@ -203,7 +203,7 @@ Using the accelerometer, try the following:
 **3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
 
 **\*\*\*Include links to your code here, and put the code for these in your repo--they will come in handy later.\*\*\***
-- Here is the link to our code: https://github.com/angelachen-19/Interactive-Lab-Hub/blob/e42ee11433f5deb405fea869e78be7e475eb80b6/Lab%205/part1.py
+- Here is the link to our code (**part1.py**): https://github.com/angelachen-19/Interactive-Lab-Hub/blob/e42ee11433f5deb405fea869e78be7e475eb80b6/Lab%205/part1.py
 
 
 ### Part B
@@ -268,8 +268,9 @@ the video: https://youtu.be/R6-CVpC9aQI
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
-- **Rock-Scissors-Paper!** Do you know this game?! Yes we all do. For this lab, we, Kaiyuan Deng (kd487), Angela Chen (ac2689), Yehao Zhang （yz2444）, and Zhengxing Xue （zx252） together to create a fun and new version of this game through sense-making systems that are taught in this lab session. 
+- **Rock-Scissors-Paper!** Do you know this game?! Yes we all do. For this lab, we, Kaiyuan Deng (kd487), Angela Chen (ac2689), Yehao Zhang (yz2444), and Zhengxing Xue (zx252) together to create a fun and new version of this game through sense-making systems that are taught in this lab session. 
 - Sense-making system: OpenCV and MediaPipe
+- Update and feedback from Part 1: we acknowledged that the sense-making system will not be able to detect more than one hand, but since we wanted to create the game that involves two players (two hands) interacting together with the camera, we modified the code and now it's updated as **part2.py** (https://github.com/angelachen-19/Interactive-Lab-Hub/blob/286db9d3969d6c9d5ab0cde9f39901768106d73c/Lab%205/part2.py)
 - **Game instruction**: two players place their hands in front of the camera and made a pose of either rock, scissor or paper during each round. The MediaPipe will detect both hands‘ locations, and we adopted OpenCV to display and print the each round's result on the screen (in gray blue colors). The rule of the game is based on:
 1) scissor > paper
 2) paper > rock

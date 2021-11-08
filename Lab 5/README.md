@@ -244,7 +244,7 @@ For example:
 3. How could change your interactive system to address this?
 - We planned to modify our code to consider the marginzalied uncetainty to make the system more flexible.
 4. Are there optimizations you can try to do on your sense-making algorithm.
-- adding more code? :)
+- adding more code and set up the margins so that the algorithm can detect more areas with higher accuracy
 
 
 ### Part D
@@ -267,5 +267,17 @@ the video: https://youtu.be/R6-CVpC9aQI
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
-
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+- **Rock-Scissors-Paper!** Do you know this game?! Yes we all do. For this lab, we, Kaiyuan Deng (kd487), Angela Chen (ac2689), Yehao Zhang （yz2444）, and Zhengxing Xue （zx252） together to create a fun and new version of this game through sense-making systems that are taught in this lab session. 
+- Sense-making system: OpenCV and MediaPipe
+- **Game instruction**: two players place their hands in front of the camera and made a pose of either rock, scissor or paper during each round. The MediaPipe will detect both hands‘ locations, and we adopted OpenCV to display and print the each round's result on the screen (in gray blue colors). The rule of the game is based on:
+1) scissor > paper
+2) paper > rock
+3) rock > scissor
+4) draw and even game when both hands display the same results, scissor = scissor, paper = paper, and rock = rock.
+For the player who wins twice out of the three rounds in total, he or she will be the winner for the game!
+
+- Here's a video to our game playing: **https://youtu.be/YqvtDnU0N14**
+- User testing and feedback
+1) we found that when parts of two hands overlapped, the camera cannot detect them and produce the game result. At the same time, it's optimal to have two hands placed in the middle of the camera detection area so that it can quickly sense the objects. In our future iteration, we'd love improve our code in order to avoid the errors made by overlapping.
+2) we also noticed that the background setting requires high brightness. During our testing, the camera initially faced the backlight area and the hands were darkened when shown on the screen. The camera sometimes wouldn't able to detect the hands if the background is too dark. In our future iteration, we want to increase the range of brightness detection for the camera.

@@ -278,6 +278,11 @@ Following exploration and reflection from Part 1, finish building your interacti
 For the player who wins twice out of the three rounds in total, he or she will be the winner for the game!
 
 - Here's a video to our game playing: **https://youtu.be/YqvtDnU0N14**
+- Photos from user testing: 
+1) round one: ![image](https://user-images.githubusercontent.com/61665501/140824087-f5c4ca1b-8359-47eb-a9f2-04e307493409.png)
+2) round two: ![image](https://user-images.githubusercontent.com/61665501/140824154-09cc7339-35e7-426c-a7fd-7d23d124c3d6.png)
+3) round three: ![image](https://user-images.githubusercontent.com/61665501/140824176-cc95640d-66d7-4f7e-9e5e-f653ff18871d.png)
+
 - User testing and feedback
-1) we found that when parts of two hands overlapped, the camera cannot detect them and produce the game result. At the same time, it's optimal to have two hands placed in the middle of the camera detection area so that it can quickly sense the objects. In our future iteration, we'd love improve our code in order to avoid the errors made by overlapping.
-2) we also noticed that the background setting requires high brightness. During our testing, the camera initially faced the backlight area and the hands were darkened when shown on the screen. The camera sometimes wouldn't able to detect the hands if the background is too dark. In our future iteration, we want to increase the range of brightness detection for the camera.
+4) we found that when parts of two hands overlapped, the camera cannot detect them and produce the game result. At the same time, it's optimal to have two hands placed in the middle of the camera detection area so that it can quickly sense the objects. In our future iteration, we'd love improve our code in order to avoid the errors made by overlapping.
+5) we also noticed that the background setting requires high brightness. During our testing, the camera initially faced the backlight area and the hands were darkened when shown on the screen. The camera sometimes wouldn't able to detect the hands if the background is too dark. In our future iteration, we want to increase the range of brightness detection for the camera.

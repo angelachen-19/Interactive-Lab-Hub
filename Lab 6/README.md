@@ -159,7 +159,8 @@ Here's the code: https://github.com/angelachen-19/Interactive-Lab-Hub/blob/3c546
 Find at least one class (more are okay) partner, and design a distributed application together based on the exercise we asked you to do in this lab.
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
-- Our team Zhengxing Xue (zx252), Angela Chen (ac2689), and Kaiyuan Deng (kd487) collaborated to work on a clock as a reminder feedback to users. We are adopting the capacity sensor to collect user feedback. In detail, user can put fingers close to each point of the sensor to send a specfic feedback reacting to the clock system. Then we plan to publish clock's responses on MQTT to Pi, and using adafruit_mpr121 from Pi to respond to user's feedback. A detailed architecture diagram below documents the input, output and parts of our clock.
+- Our team Zhengxing Xue (zx252), Angela Chen (ac2689), and Kaiyuan Deng (kd487) collaborated to work on a clock as a reminder feedback to users. We are adopting the capacity sensor to collect user feedback. This is an elaboration of the **first design idea** from Part B. In detail, user can put fingers close to each point of the sensor to send a specfic feedback reacting to the clock system. Then we plan to publish clock's responses on MQTT to Pi, and using adafruit_mpr121 from Pi to respond to user's feedback. A detailed architecture diagram below documents the input, output and parts of our clock.
+- Significance: we are really excited about this idea because there are so many hardoworking and talented students at Cornell Tech who are **schedule and deadline-driven**. That means, a clock serving as an alarm reminder can help them manage their time better while keeping up wellness. For instance, a student would like to take a power nap for another five minutes after the first waking up alarm at 2pm, he is able to touch the sensor and give a feedback to request for another reminder in five minutes. In addition, if the user would just like to wake up, he can touch another spot to send a confirmation feedback to the pi. Then Pi will say "have a nice day!".
 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 ![image](https://user-images.githubusercontent.com/61665501/141870804-3b70792e-7c51-4aa4-b58c-faf2b9ffb55a.png)
@@ -167,10 +168,15 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 - Here's the code to our prototype: https://github.com/angelachen-19/Interactive-Lab-Hub/blob/3c546f99a68103b59bdb1fd64421c94f0ee87052/Lab%206/part_e.py
-- Capacity sensor is easy to use, and we invited a member to test and work it out. By placing fingers on the sensors' different spots, the system will receive a distinct feedback and 
+- Capacity sensor is easy to use, and we invited a member to test and work it out. By placing fingers on the sensors' different areas, the system will receive distinct feedbacks and provide responses. For instance, if the user wants to 
+- Here is an image of the capacity sensor with notes on the functions for each spot: 
+1. Capacity sensor with notes: ![capacity sensor](https://user-images.githubusercontent.com/61665501/141879685-f89e1ac5-75b4-478e-9b87-aa96e3bd53ca.jpeg)
+
+2. Capacity sensor along with camera and microphone: ![capacity sensor w: camera](https://user-images.githubusercontent.com/61665501/141879730-b9a0266d-ba7d-4b06-9b8e-d7bc6a440bb3.jpeg)
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 - We created a video demonstrating how this prototype works:
+
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 

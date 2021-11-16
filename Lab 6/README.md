@@ -175,7 +175,7 @@ Find at least one class (more are okay) partner, and design a distributed applic
 2. Capacity sensor along with camera and microphone: ![capacity sensor w: camera](https://user-images.githubusercontent.com/61665501/141879730-b9a0266d-ba7d-4b06-9b8e-d7bc6a440bb3.jpeg)
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
-- We created a video demonstrating how this prototype works:
+- We created a video demonstrating how this prototype works: https://youtu.be/Y88m3rZT3JQ
 
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->

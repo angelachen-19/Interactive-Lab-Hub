@@ -85,6 +85,13 @@ Once connected, you should be able to see all the messages under the IDD topic. 
   ```
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
+Here are the five ideas we thought about for using the messaging system on the interactive devices:
+1. **Clock**: serving as a reminder and setting alarm of the time to the user such as waking up, and getting up.
+2. **Weather Podcast**: serving as a weather podcast with the sensor where users are able to check out the weather of the day before going out of the room. 
+3. **Temperature detection**: serving as a room temperature sensor to tell the current (most-up-to-date) temperature in the room.
+4. **Music Plyaer**: serving as a music player to play different pieces of songs when users touch different sensor points on the board of the capacity sensor.
+5. **Image display**: serving to display different shapes, or images when users touch the different sensor points on the board of the capacity sensor.
+
 
 ### Part C
 ### Streaming a Sensor
@@ -106,8 +113,10 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
  ```
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
+![part_c](https://user-images.githubusercontent.com/61665501/141870525-8614c20a-7c37-4c47-bbf7-d93c22fa5ba1.jpg)
 
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
+here is the code: https://github.com/angelachen-19/Interactive-Lab-Hub/blob/3c546f99a68103b59bdb1fd64421c94f0ee87052/Lab%206/part_c.py
 
 
 ### Part D
@@ -140,6 +149,8 @@ You may ask "but what if I missed class?" Am I not admitted into the collective 
 Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-true-colornet.glitch.me/) and become one with the ColorNet on the inter-webs. Glitch is a great tool for prototyping sites, interfaces and web-apps that's worth taking some time to get familiar with if you have a chance. Its not super pertinent for the class but good to know either way. 
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
+Here's a screenshot we took from someone published and displayed on our screen: ![part_d](https://user-images.githubusercontent.com/61665501/141870629-1731cdaf-c1c1-4eaf-a841-891c57c012d7.jpg)
+Here's the code: https://github.com/angelachen-19/Interactive-Lab-Hub/blob/3c546f99a68103b59bdb1fd64421c94f0ee87052/Lab%206/part_d.py
 
 
 ### Part E
@@ -148,12 +159,18 @@ Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-
 Find at least one class (more are okay) partner, and design a distributed application together based on the exercise we asked you to do in this lab.
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
+- Our team Zhengxing Xue (zx252), Angela Chen (ac2689), and Kaiyuan Deng (kd487) collaborated to work on a clock as a reminder feedback to users. We are adopting the capacity sensor to collect user feedback. In detail, user can put fingers close to each point of the sensor to send a specfic feedback reacting to the clock system. Then we plan to publish clock's responses on MQTT to Pi, and using adafruit_mpr121 from Pi to respond to user's feedback. A detailed architecture diagram below documents the input, output and parts of our clock.
 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+![image](https://user-images.githubusercontent.com/61665501/141870804-3b70792e-7c51-4aa4-b58c-faf2b9ffb55a.png)
+
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
+- Here's the code to our prototype: https://github.com/angelachen-19/Interactive-Lab-Hub/blob/3c546f99a68103b59bdb1fd64421c94f0ee87052/Lab%206/part_e.py
+- Capacity sensor is easy to use, and we invited a member to test and work it out. By placing fingers on the sensors' different spots, the system will receive a distinct feedback and 
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+- We created a video demonstrating how this prototype works:
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 

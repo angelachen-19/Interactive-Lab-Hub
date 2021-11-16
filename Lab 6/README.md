@@ -176,6 +176,11 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 - We created a video demonstrating how this prototype works: https://youtu.be/Y88m3rZT3JQ
+- Here are the system responses to the different scenarios listed in the video: 
+1. Five-minutes: ![image](https://user-images.githubusercontent.com/61665501/141922763-6676e38f-260d-4134-ad06-76c0b5d4ae94.png)
+2. Not getting up: ![image](https://user-images.githubusercontent.com/61665501/141922789-e85116cd-ac54-4929-ab10-54df602357d7.png)
+3. Waking up: ![image](https://user-images.githubusercontent.com/61665501/141922806-a204178c-a3a1-4ec7-a549-44e95d37a77b.png)
+
 
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
